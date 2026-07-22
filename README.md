@@ -22,7 +22,7 @@ This project follows a **Star Schema** data model to ensure efficient relationsh
 <p align="center">
 <img src="Assets/star_schema.png" width="100%">
 </p>
-
+(https://github.com/Manikanta13226/Global-Firepower-Analytics-2026/blob/main/star%20schema%20in%20powerbi/Screenshot%202026-07-22%20121222.png)
 ---
 
 # 📌 Project Overview
