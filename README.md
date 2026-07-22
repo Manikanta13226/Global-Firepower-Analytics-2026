@@ -20,7 +20,7 @@ Watch the complete walkthrough of the project.
 This project follows a **Star Schema** data model to ensure efficient relationships, improved report performance, and simplified analytics.
 
 <p align="center">
-<img src="Assets/star_schema.png" width="100%">
+<img src="star schema in powerbi/star_schema_jpg" width="100%">
 </p>
 (https://github.com/Manikanta13226/Global-Firepower-Analytics-2026/blob/main/star%20schema%20in%20powerbi/Screenshot%202026-07-22%20121222.png)
 ---
