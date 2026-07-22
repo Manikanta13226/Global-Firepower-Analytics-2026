@@ -11,7 +11,7 @@
 
 Watch the complete walkthrough of the project.
 
-[![Watch Demo](https://img.shields.io/badge/▶️%20Watch%20Project%20Demo-red?style=for-the-badge)](YOUR_VIDEO_LINK)
+[![Watch Demo](https://img.shields.io/badge/▶️%20Watch%20Project%20Demo-red?style=for-the-badge)](sha256:30a2858e8f04932adf4f5afc0e52ca3d4fa037fe9003e2de52ec48330fd5f730)
 
 ---
 
