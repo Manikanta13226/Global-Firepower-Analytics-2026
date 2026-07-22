@@ -227,11 +227,11 @@ This project demonstrates practical skills in Business Intelligence, data modeli
 
 ### Connect with Me
 
-📧 Email: your-email@example.com
+📧 Email: ammuturimanikanta@gmail.com
 
-💼 LinkedIn: https://linkedin.com/in/your-profile
+💼 LinkedIn: https://www.linkedin.com/in/ammuturi-manikanta
 
-💻 GitHub: https://github.com/your-username
+💻 GitHub: https://github.com/Manikanta13226
 
 ---
 
