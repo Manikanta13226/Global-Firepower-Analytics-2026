@@ -1,70 +1,69 @@
 # Global-Firepower-Analytics-2026
-# 🌍 Global Firepower Analytics 2026 Dashboard
+# 🌍 Global Firepower Analytics Dashboard (2026)
 
 ### End-to-End Business Intelligence Solution for Global Military Capability Analysis
 
-> An interactive Power BI dashboard that analyzes and compares the military strength, economy, logistics, energy resources, and geographical advantages of **145 countries** using data collected through Python Web Scraping.
+> An interactive Power BI solution that analyzes and compares the military capabilities of **145 countries** using data collected through **Python Web Scraping**, transformed with **Power Query**, modeled using a **Star Schema**, and visualized through interactive Power BI dashboards.
 
 ---
 
 ## 🎥 Project Demonstration
 
-> **Watch the complete dashboard walkthrough here**
-
-🎬 **Project Demo**
+Watch the complete walkthrough of the project.
 
 [![Watch Demo](https://img.shields.io/badge/▶️%20Watch%20Project%20Demo-red?style=for-the-badge)](YOUR_VIDEO_LINK)
 
 ---
 
-## 🏗 Data Model
+# 🏗 Data Model
 
-The project follows a **Star Schema** data model to improve report performance, simplify relationships, and enable efficient cross-filtering between multiple military datasets.
+This project follows a **Star Schema** data model to ensure efficient relationships, improved report performance, and simplified analytics.
 
 <p align="center">
-<img src="Assets/star_schema.png" width="900">
+<img src="Assets/star_schema.png" width="100%">
 </p>
 
 ---
 
 # 📌 Project Overview
 
-Military intelligence data is often distributed across multiple sources, making country-to-country comparisons difficult and time-consuming.
+Global military intelligence data is available across multiple public sources, making it difficult to compare countries efficiently.
 
-The objective of this project was to design an **interactive Business Intelligence platform** that consolidates global military and strategic information into a single dashboard, enabling users to analyze and compare **145 countries** through intuitive visualizations.
+To solve this problem, I developed an **end-to-end Business Intelligence solution** that consolidates military and strategic information into one centralized Power BI dashboard.
 
-The solution combines information related to:
+The solution enables users to analyze and compare **145 countries** across multiple domains through interactive visualizations and business-focused insights.
 
-- 👥 Population & Manpower
+### Dashboard Categories
+
+- 🌍 Country Analysis
 - 🪖 Army
 - 🚢 Navy
 - ✈ Air Force
-- 💰 Economy
-- 🚚 Logistics
+- 🚚 Logistics & Economy
 - ⚡ Energy
-- 🌍 Geography
+- 🗺 Geography
 
 ---
 
 # 🎯 Business Requirement
 
-The organization required a centralized analytics solution capable of answering strategic questions such as:
+The objective of this project was to build a centralized analytics platform capable of answering strategic business questions, including:
 
 - Which countries possess the strongest military capabilities?
-- Which nations invest the most in defense?
-- How do army, navy, and air force assets compare globally?
+- Which nations have the largest army, navy, and air force assets?
+- How does defense spending vary across countries?
 - Which countries have the strongest logistics infrastructure?
 - How do energy resources support military readiness?
 - Which geographical factors provide strategic advantages?
-- How can decision-makers compare countries quickly through one interactive platform?
+- How can users compare countries quickly through one interactive platform?
 
-The dashboard was designed to reduce manual analysis and improve strategic decision-making through data-driven insights.
+The dashboard was designed to reduce manual analysis and support data-driven decision-making.
 
 ---
 
 # 💻 Tech Stack
 
-<p align="left">
+<p>
 
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
 
@@ -84,7 +83,7 @@ The dashboard was designed to reduce manual analysis and improve strategic decis
 
 <img src="https://img.shields.io/badge/Star%20Schema-5E35B1?style=for-the-badge"/>
 
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
 
 </p>
 
@@ -93,28 +92,37 @@ The dashboard was designed to reduce manual analysis and improve strategic decis
 # 🔄 Project Workflow
 
 ```text
-🌐 Global Firepower Website
-            │
-            ▼
+🌐 Global Firepower Website (2026)
+              │
+              ▼
 🐍 Python Web Scraping
-            │
-            ▼
-📊 Raw Dataset
-            │
-            ▼
-🧹 Data Cleaning & Transformation
-(Power Query)
-            │
-            ▼
+              │
+              ▼
+📊 Data Collection
+      (145 Countries)
+              │
+              ▼
+🧹 Data Cleaning
+Handling Missing Values
+Removing Duplicates
+Standardizing Data
+              │
+              ▼
+🔄 Power Query Transformation
+Creating New Columns
+Unpivoting Selected Tables
+Building Reference Tables
+              │
+              ▼
 🏗 Star Schema Data Model
-            │
-            ▼
+              │
+              ▼
 📈 DAX Measures & KPIs
-            │
-            ▼
-📊 Interactive Power BI Dashboards
-            │
-            ▼
+              │
+              ▼
+📊 Home Page + 7 Interactive Dashboards
+              │
+              ▼
 💡 Business Insights
 ```
 
@@ -122,56 +130,106 @@ The dashboard was designed to reduce manual analysis and improve strategic decis
 
 # 📊 Dashboard Modules
 
-The report consists of **8 interactive dashboards**.
+The solution consists of **one Home page** and **seven interactive dashboards**.
 
 | Dashboard | Purpose |
 |------------|---------|
-| 🏠 Executive Dashboard | Overall military overview |
-| 🌍 Country Analysis | Complete country profile |
-| 🪖 Army | Ground combat capability |
-| 🚢 Navy | Naval capability |
-| ✈ Air Force | Air superiority |
-| 🚚 Logistics & Economy | Infrastructure & economic strength |
-| ⚡ Energy | Energy production & consumption |
-| 🌎 Geography | Strategic geographical advantages |
+| 🏠 Home | Landing page with interactive navigation buttons |
+| 🌍 Country Analysis | Analyze and compare the complete profile of any selected country |
+| 🪖 Army Dashboard | Ground combat capability including tanks, artillery, armored vehicles, and military readiness |
+| 🚢 Navy Dashboard | Analyze naval fleets, submarines, aircraft carriers, and maritime strength |
+| ✈ Air Force Dashboard | Compare fighters, helicopters, transport aircraft, tankers, and overall air capability |
+| 🚚 Logistics & Economy Dashboard | Analyze transportation infrastructure, merchant marine, labor force, defense budget, and foreign reserves |
+| ⚡ Energy Dashboard | Compare oil, natural gas, and coal production, consumption, and reserves |
+| 🌎 Geography Dashboard | Analyze land area, border length, coastline, waterways, and strategic geographical advantages |
+
+---
+
+# 📈 Key Features
+
+✅ Home Page with Navigation Buttons
+
+✅ Interactive Country Slicer
+
+✅ Dynamic KPI Cards
+
+✅ Business-Oriented Visualizations
+
+✅ Cross Filtering
+
+✅ Dynamic Tooltips
+
+✅ Professional Military Theme
+
+✅ Interactive Navigation
 
 ---
 
 # 🔍 Key Findings
 
-After analyzing military and strategic data across **145 countries**, several important insights were identified:
+After analyzing military and strategic data across **145 countries**, the following insights were identified:
 
-- 🌍 Military strength depends on multiple factors beyond weapons, including economy, logistics, energy resources, and geography.
-- 🪖 Countries with larger defense budgets generally maintain stronger army, navy, and air force capabilities.
-- 🚢 Naval power is concentrated among a limited number of countries possessing aircraft carriers and advanced surface fleets.
-- ✈ Air superiority is strongly influenced by the number of fighter aircraft, transport aircraft, and helicopters.
-- 🚚 Well-developed logistics infrastructure—including ports, merchant marine fleets, railways, and roadways—plays a critical role in sustaining military operations.
-- ⚡ Energy production and reserves contribute significantly to long-term strategic readiness.
-- 🌍 Geographical advantages such as coastline, waterways, and land area influence defense strategy and operational capability.
+- 🌍 Military capability is influenced by army, navy, air force, economy, logistics, energy resources, and geography—not military equipment alone.
+
+- 🪖 Countries with higher defense budgets generally maintain stronger military assets across all branches.
+
+- 🚢 Naval superiority is concentrated among a small number of countries possessing aircraft carriers, destroyers, and submarines.
+
+- ✈ Air superiority is driven by fighter aircraft, transport fleets, and helicopter capabilities.
+
+- 🚚 Logistics infrastructure—including ports, merchant marine, railways, and roadways—plays a critical role in sustaining military operations.
+
+- ⚡ Countries with strong domestic energy production have greater long-term strategic readiness.
+
+- 🌎 Geographical advantages such as extensive coastlines, waterways, and large land areas significantly influence military strategy.
+
+---
+
+# 💼 Business Value
+
+This dashboard enables decision-makers to:
+
+✔ Compare military capabilities across 145 countries
+
+✔ Identify global defense leaders
+
+✔ Evaluate logistics and infrastructure readiness
+
+✔ Analyze defense budgets and economic indicators
+
+✔ Understand the impact of energy resources
+
+✔ Assess geographical advantages
+
+✔ Support strategic planning through interactive analytics
 
 ---
 
 # ✅ Conclusion
 
-The **Global Firepower Analytics Dashboard** transforms fragmented military and strategic information into a centralized Business Intelligence solution.
+The **Global Firepower Analytics Dashboard (2026)** transforms fragmented military intelligence into a centralized Business Intelligence solution.
 
-By integrating data collection, transformation, modeling, and visualization into a single platform, the dashboard enables users to compare countries, identify strategic strengths, and support data-driven decision-making through interactive analytics.
+Starting with **Python Web Scraping**, the project covers the complete analytics lifecycle, including data collection, cleaning, transformation, data modeling, and interactive dashboard development.
 
-This project demonstrates practical experience across the complete analytics lifecycle—from data acquisition to delivering business insights using Power BI.
+The final solution consists of a **Home page with navigation** and **seven analytical dashboards**, enabling users to explore military capabilities, economic strength, logistics infrastructure, energy resources, and geographical advantages through a single interactive platform.
+
+This project demonstrates practical skills in Business Intelligence, data modeling, dashboard design, and data storytelling while delivering meaningful insights for strategic decision-making.
 
 ---
 
-## 👨‍💻 Author
+# 👨‍💻 Author
 
-**Manikanta**
+## Manikanta
 
-🎓 M.Sc. Data Science
+🎓 **M.Sc. Data Science**
 
-💼 Aspiring Data Analyst
+💼 **Aspiring Data Analyst**
+
+### Connect with Me
 
 📧 Email: your-email@example.com
 
-🔗 LinkedIn: https://linkedin.com/in/your-profile
+💼 LinkedIn: https://linkedin.com/in/your-profile
 
 💻 GitHub: https://github.com/your-username
 
@@ -179,8 +237,11 @@ This project demonstrates practical experience across the complete analytics lif
 
 <div align="center">
 
-### ⭐ If you found this project useful, consider giving it a Star!
+## ⭐ If you found this project interesting, consider giving it a Star!
 
 Thank you for visiting my repository.
 
+**Built with ❤️ using Python, Power Query, Power BI, DAX, and Data Storytelling.**
+
+</div>
 </div>
